@@ -1,0 +1,1310 @@
+===== Q9011TA HARDWARE/VENDOR DUMP =====
+Date: Sun Oct 25 20:46:45 PKT 2026
+
+--- uname ---
+/system/bin/sh: uname: not found
+--- id ---
+uid=0(root) gid=0(root)
+--- cpuinfo ---
+Processor	: ARMv7 Processor rev 3 (v7l)
+processor	: 0
+BogoMIPS	: 1693.69
+
+processor	: 1
+BogoMIPS	: 1703.93
+
+processor	: 2
+BogoMIPS	: 1703.93
+
+processor	: 3
+BogoMIPS	: 1703.93
+
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 3
+
+Hardware	: Autochips ac83xx
+Revision	: 0000
+Serial		: 0000000000000000
+--- meminfo ---
+MemTotal:        1853420 kB
+MemFree:          897760 kB
+Buffers:           12504 kB
+Cached:           301664 kB
+SwapCached:            0 kB
+Active:           548608 kB
+Inactive:         193948 kB
+Active(anon):     428420 kB
+Inactive(anon):      220 kB
+Active(file):     120188 kB
+Inactive(file):   193728 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:        409600 kB
+HighFree:           3328 kB
+LowTotal:        1443820 kB
+LowFree:          894432 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        428372 kB
+Mapped:           161012 kB
+Shmem:               268 kB
+Slab:              26992 kB
+SReclaimable:      11756 kB
+SUnreclaim:        15236 kB
+KernelStack:        7688 kB
+PageTables:        11940 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      926708 kB
+Committed_AS:   12442076 kB
+VmallocTotal:     401408 kB
+VmallocUsed:      257340 kB
+VmallocChunk:      33876 kB
+--- mounts ---
+rootfs / rootfs rw 0 0
+/dev/root / ext2 ro,relatime,errors=remount-ro 0 0
+devtmpfs /dev devtmpfs rw,relatime,size=924568k,nr_inodes=231142,mode=755 0 0
+tmpfs /dev tmpfs rw,nosuid,relatime,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,mode=600,ptmxmode=000 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/secure tmpfs rw,relatime,mode=700 0 0
+tmpfs /mnt/asec tmpfs rw,relatime,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,relatime,mode=755,gid=1000 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+/dev/block/system /system ext4 rw,noatime,nodiratime,data=ordered 0 0
+/dev/block/cache /cache ext4 rw,nosuid,nodev,noatime,nodiratime,nodelalloc,commit=1,data=ordered 0 0
+/dev/block/data /data ext4 rw,nosuid,nodev,noatime,nodiratime,nodelalloc,data=ordered 0 0
+/dev/block/data4write /data4write ext4 rw,nosuid,nodev,noatime,nodiratime,nodelalloc,data=ordered 0 0
+/sys/kernel/debug /sys/kernel/debug debugfs rw,relatime 0 0
+/dev/block/vold/179:18 /mnt/sdcard vfat rw,nosuid,nodev,noexec,noatime,nodiratime,uid=1015,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp850,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+/dev/block/vold/179:18 /mnt/secure/asec vfat rw,nosuid,nodev,noexec,noatime,nodiratime,uid=1015,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp850,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+tmpfs /mnt/sdcard/.android_secure tmpfs ro,relatime,size=0k,mode=000 0 0
+/dev/block/vold/8:1 /mnt/udisk2 vfat rw,nosuid,nodev,noexec,noatime,nodiratime,uid=1015,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp850,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+--- df ---
+Filesystem             Size   Used   Free   Blksize
+-h: No such file or directory
+[atc.rearproperty]: [FRDS]
+[bootdevice]: [mmc]
+[btId]: [BT_ID_6622]
+[dalvik.vm.heapgrowthlimit]: [256m]
+[dalvik.vm.heapmaxfree]: [32m]
+[dalvik.vm.heapminfree]: [1m]
+[dalvik.vm.heapsize]: [512m]
+[dalvik.vm.heapstartsize]: [32m]
+[dalvik.vm.heaptargetutilization]: [0.57]
+[dalvik.vm.stack-trace-file]: [/data/anr/traces.txt]
+[dev.bootcomplete]: [1]
+[dhcp.wlan0.dns1]: [192.168.10.1]
+[dhcp.wlan0.dns2]: []
+[dhcp.wlan0.dns3]: []
+[dhcp.wlan0.dns4]: []
+[dhcp.wlan0.gateway]: [192.168.10.1]
+[dhcp.wlan0.ipaddress]: [192.168.10.104]
+[dhcp.wlan0.leasetime]: [86400]
+[dhcp.wlan0.mask]: [255.255.255.0]
+[dhcp.wlan0.pid]: [13522]
+[dhcp.wlan0.reason]: [BOUND]
+[dhcp.wlan0.result]: [ok]
+[dhcp.wlan0.server]: [192.168.10.1]
+[dhcp.wlan0.vendorInfo]: []
+[gosuncn.usb0.ipaddress]: []
+[gps.gps.version]: [MTK_GPS_MT3336]
+[gps.mnl_process.status]: [1111]
+[gpsId]: [GPS_ID_3336]
+[gsm.current.phone-type]: [1]
+[gsm.defaultpdpcontext.active]: [false]
+[gsm.network.type]: [UMTS]
+[gsm.operator.alpha]: [ZONG]
+[gsm.operator.iso-country]: []
+[gsm.operator.isroaming]: [false]
+[gsm.operator.numeric]: [41004]
+[gsm.sim.operator.alpha]: []
+[gsm.sim.operator.iso-country]: [pk]
+[gsm.sim.operator.numeric]: [41004]
+[gsm.sim.state]: [READY]
+[gsm.version.baseband]: [LC_ME3630C3CV2.0B01 ]
+[gsm.version.ril-impl]: [GOSUNCN_RIL_040_Q_A_V1.0_B10_20201210]
+[init.svc.adbd]: [running]
+[init.svc.adbec]: [running]
+[init.svc.ap_daemon]: [stopped]
+[init.svc.atc_ipod_core]: [running]
+[init.svc.auto_swtich_adb]: [running]
+[init.svc.autorun]: [running]
+[init.svc.bootByChip]: [stopped]
+[init.svc.bootanim]: [stopped]
+[init.svc.cap_bplog]: [stopped]
+[init.svc.console]: [running]
+[init.svc.debuggerd]: [running]
+[init.svc.dhcpcd_wlan0]: [running]
+[init.svc.drm]: [running]
+[init.svc.hdmihdcp]: [stopped]
+[init.svc.installd]: [running]
+[init.svc.keystore]: [running]
+[init.svc.late_insmod]: [stopped]
+[init.svc.media]: [running]
+[init.svc.mnld_3336]: [running]
+[init.svc.mtkbt]: [running]
+[init.svc.netd]: [running]
+[init.svc.p2p_supplicant]: [running]
+[init.svc.preinstall]: [stopped]
+[init.svc.recover_sys]: [running]
+[init.svc.ril-daemon]: [running]
+[init.svc.save_bplog]: [stopped]
+[init.svc.savelog]: [running]
+[init.svc.servicemanager]: [running]
+[init.svc.surfaceflinger]: [running]
+[init.svc.telnetd]: [stopped]
+[init.svc.tp_reset]: [running]
+[init.svc.ueventd]: [running]
+[init.svc.usb_hub_protocol]: [stopped]
+[init.svc.vold]: [running]
+[init.svc.waiting_run]: [running]
+[init.svc.whitelist4gis]: [stopped]
+[init.svc.zygote]: [running]
+[keyguard.no_require_sim]: [true]
+[media.wfd.sink.uibc-enabled]: [1]
+[media.wfd.sink.uibc.cap]: [G,K,M,T]
+[net.acc.state]: [0]
+[net.acc.status]: [RR_QB_POWERON]
+[net.arm2.backcar.done]: [1]
+[net.audiomute.state]: [0]
+[net.bt.name]: [Android]
+[net.change]: [net.front.process.packagename]
+[net.clear.cache.completed]: [1]
+[net.dns1]: [192.168.10.1]
+[net.dnschange]: [4]
+[net.front.process.packagename]: [com.roadrover.launcher]
+[net.gestrue.open]: [0]
+[net.have.car.have]: [NO]
+[net.have.vlumemax]: [63]
+[net.hostname]: [android-e75cc53446bb468c]
+[net.ills.change]: [0]
+[net.mute.acc]: [0]
+[net.navi.name]: [com.sygic.aura_pndindash]
+[net.power.cramy.screen]: [1]
+[net.power.screen]: [0]
+[net.ppp0.imei]: [866871058496941]
+[net.prop.radio.status]: [prop.radio.stop]
+[net.qtaguid_enabled]: [1]
+[net.recyclecache.permit]: [0]
+[net.roadrover.mcu]: [X11TA----H]
+[net.screen.status]: [1]
+[net.stwkeyfile.ready]: [2]
+[net.tcp.buffersize.default]: [4096,87380,110208,4096,16384,110208]
+[net.tcp.buffersize.edge]: [4093,26280,35040,4096,16384,35040]
+[net.tcp.buffersize.evdo]: [4094,87380,262144,4096,16384,262144]
+[net.tcp.buffersize.gprs]: [4092,8760,11680,4096,8760,11680]
+[net.tcp.buffersize.hsdpa]: [4094,87380,262144,4096,16384,262144]
+[net.tcp.buffersize.hspa]: [4094,87380,262144,4096,16384,262144]
+[net.tcp.buffersize.hspap]: [4094,87380,1220608,4096,16384,1220608]
+[net.tcp.buffersize.hsupa]: [4094,87380,262144,4096,16384,262144]
+[net.tcp.buffersize.lte]: [524288,1048576,2097152,262144,524288,1048576]
+[net.tcp.buffersize.umts]: [4094,87380,110208,4096,16384,110208]
+[net.tcp.buffersize.wifi]: [524288,1048576,2097152,262144,524288,1048576]
+[net.wlan0.dns1]: [49.0.0.0]
+[net.wlan0.dns2]: []
+[persist.bt.fwdump]: [4294967295]
+[persist.current.usb.mode]: [host]
+[persist.current.usb.protocol]: [usb2_0]
+[persist.imei]: [866871058496941]
+[persist.rilindex]: [1]
+[persist.service.adb.enable]: [1]
+[persist.sys.360avm]: [1]
+[persist.sys.dbg]: [1]
+[persist.sys.deepsleep]: [null]
+[persist.sys.install]: [0]
+[persist.sys.istopvideoacc]: [1]
+[persist.sys.isvideoplaying]: [0]
+[persist.sys.mxplus.version]: [2]
+[persist.sys.powermgr]: [2]
+[persist.sys.profiler_ms]: [0]
+[persist.sys.savelog.order]: [1]
+[persist.sys.timezone]: [Asia/Karachi]
+[persist.sys.usb.config]: [adb,mass_storage]
+[persist.sys.usb.multipartition]: [0]
+[ril.apn.type]: [default]
+[ril.check.packet]: [1]
+[ril.data.device.path]: [/dev/ttyUSB2]
+[ril.device.ecm.path]: [usb0]
+[ril.gxx.meid]: [A100006B6CAC67]
+[ril.modem.reset.rild.times]: [0]
+[ril.reset.rild]: [0]
+[ril.sim.pin.retry.numbers]: [3]
+[ril.sim.puk.retry.numbers]: [10]
+[rild.libpath]: [/system/lib/libreference-ril-gosuncn.so]
+[rild.monitor]: [0]
+[ro.adb.qemud]: [1]
+[ro.allow.mock.location]: [1]
+[ro.atc.supportdivxht31]: [0]
+[ro.baseband]: [unknown]
+[ro.board.platform]: [ac8317]
+[ro.boot.serialno]: [abdf911ba819f1e]
+[ro.bootloader]: [unknown]
+[ro.bootmode]: [unknown]
+[ro.build.characteristics]: [tablet // changed from tablet]
+[ro.build.date.utc]: [1649918361]
+[ro.build.date]: [2022年 04月 14日 星期四 14:39:21 CST]
+[ro.build.description]: [Q9011TA-F01CJ2-Q04-V5.0.03N0-EN]
+[ro.build.display.id]: [Q9011TA-F01CJ2-Q04-V5.0.03N0-EN]
+[ro.build.fingerprint]: [Android/generic_ac8317/ac8317:4.2.2/JDQ39E/eng.hudan.20220414.143414:eng/test-keys]
+[ro.build.host]: [it-0C]
+[ro.build.id]: [JDQ39E]
+[ro.build.product]: [ac8317]
+[ro.build.tags]: [test-keys]
+[ro.build.type]: [eng]
+[ro.build.user]: [hudan]
+[ro.build.version.codename]: [REL]
+[ro.build.version.incremental]: [eng.hudan.20220414.143414]
+[ro.build.version.release]: [4.2.2]
+[ro.build.version.sdk]: [17]
+[ro.carrier]: [unknown]
+[ro.com.android.dataroaming]: [true]
+[ro.com.android.dateformat]: [MM-dd-yyyy]
+[ro.config.alarm_alert]: [Alarm_Classic.ogg]
+[ro.config.notification_sound]: [pixiedust.ogg]
+[ro.config.ringtone]: [Ring_Synth_04.ogg]
+[ro.cpu.no]: [4]
+[ro.debuggable]: [1]
+[ro.factorytest]: [0]
+[ro.hardware]: [autochipsac83xx]
+[ro.kernel.android.checkjni]: [0]
+[ro.opengles.version]: [131072]
+[ro.product.board]: []
+[ro.product.brand]: [Android]
+[ro.product.cpu.abi2]: [armeabi]
+[ro.product.cpu.abi]: [armeabi-v7a]
+[ro.product.device]: [ac8317]
+[ro.product.locale.language]: [EN]
+[ro.product.locale.region]: [us]
+[ro.product.manufacturer9]: [RoadroverByChenjian]
+[ro.product.manufacturer]: [ATC]
+[ro.product.model9]: [Q7010HD]
+[ro.product.model]: [AC822X]
+[ro.product.name]: [generic_ac8317]
+[ro.revision]: [0]
+[ro.ril.gprsclass]: [10]
+[ro.ril.hsxpa]: [1]
+[ro.roaderover.dvd]: [0]
+[ro.roaderover.inner.mic]: [0]
+[ro.roaderover.rds]: [1]
+[ro.roaderover.tv]: [0]
+[ro.roaderover.voice]: [1]
+[ro.runtime.firstboot]: [1496289623285]
+[ro.secure]: [0]
+[ro.serialno]: [abdf911ba819f1e]
+[ro.sf.lcd_density]: [160]
+[ro.wifi.channels]: []
+[service.adb.root]: [1]
+[service.adb.tcp.port]: [5555]
+[service.adbec.enable]: [1]
+[service.bootanim.exit]: [1]
+[service.cbm.systemReady]: [1]
+[sys.boot_completed]: [1]
+[sys.settings_global_version]: [9]
+[sys.settings_secure_version]: [6]
+[sys.settings_system_version]: [86]
+[sys.usb.config]: [none]
+[sys.usb.state]: [none]
+[system_init.startsurfaceflinger]: [0]
+[wfd.sink.go_intent]: [0]
+[wifiId]: [WIFI_ID_5931]
+[wlan.driver.status]: [unloaded]
+
+--- build.prop ---
+# begin build properties
+# autogenerated by buildinfo.sh
+ro.build.id=JDQ39E
+ro.build.display.id=Q9011TA-F01CJ2-Q04-V5.0.03N0-EN
+ro.build.version.incremental=eng.hudan.20220414.143414
+ro.build.version.sdk=17
+ro.build.version.codename=REL
+ro.build.version.release=4.2.2
+ro.build.date=2022年 04月 14日 星期四 14:39:21 CST
+ro.build.date.utc=1649918361
+ro.build.type=eng
+ro.build.user=hudan
+ro.build.host=it-0C
+ro.build.tags=test-keys
+ro.product.model=Generic Android on ac8317
+ro.product.brand=Android
+ro.product.name=generic_ac8317
+ro.product.device=ac8317
+ro.product.board=
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=ATC
+ro.product.locale.language=EN
+ro.product.locale.region=us
+ro.wifi.channels=
+ro.board.platform=ac8317
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=ac8317
+# Do not try to parse ro.build.description or .fingerprint
+ro.build.description=Q9011TA-F01CJ2-Q04-V5.0.03N0-EN
+ro.build.fingerprint=Android/generic_ac8317/ac8317:4.2.2/JDQ39E/eng.hudan.20220414.143414:eng/test-keys
+ro.build.characteristics=tablet // changed from tablet
+# end build properties
+
+#
+# ADDITIONAL_BUILD_PROPERTIES
+#
+persist.sys.timezone=Asia/Karachi
+keyguard.no_require_sim=true
+ro.com.android.dataroaming=true
+ro.com.android.dateformat=MM-dd-yyyy
+ro.config.ringtone=Ring_Synth_04.ogg
+ro.config.notification_sound=pixiedust.ogg
+ro.carrier=unknown
+ro.config.alarm_alert=Alarm_Classic.ogg
+ro.ril.hsxpa=1
+ro.ril.gprsclass=10
+ro.adb.qemud=1
+ro.kernel.android.checkjni=0
+net.bt.name=Android
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
+--- default.prop ---
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+persist.sys.usb.config=adb
+--- local.prop ---
+--- asound cards ---
+ 0 [ac83xxSolo1    ]: ac_83xx - ac_83xx (Solo-1)
+                      ac_83xx (Solo-1) rev 0, irq 183
+--- asound devices ---
+  0: [ 0]   : control
+ 16: [ 0- 0]: digital audio playback
+ 24: [ 0- 0]: digital audio capture
+ 33:        : timer
+--- asound pcm ---
+00-00: card_pcm :  : playback 3 : capture 2
+--- /dev/snd ---
+crw-rw---- system   audio     14,   4 2017-06-01 09:00 audio
+crw-rw---- system   audio    116,   0 2017-06-01 09:00 controlC0
+crw-rw---- system   audio     14,   3 2017-06-01 09:00 dsp
+crw-rw---- system   audio     14,   0 2017-06-01 09:00 mixer
+crw-rw-rw- system   system   116,  24 2017-06-01 09:00 pcmC0D0c
+crw-rw---- system   audio    116,  16 2017-06-01 09:00 pcmC0D0p
+crw-rw---- system   audio    116,  33 2017-06-01 09:00 timer
+--- /dev/audio ---
+--- audio hal libs ---
+audio.primary.ac8317.so
+audio.primary.default.so
+audio.primary.goldfish.so
+audio_policy.ac8317.so
+audio_policy.default.so
+--- vendor lib ---
+libSR_AudioIn.so
+libaudioeffect_jni.so
+libaudioflinger.so
+libaudioutils.so
+libipodaudio.so
+libstagefright_soft_aacdec.so
+libstagefright_soft_aacenc.so
+libstagefright_soft_flacenc.so
+libstagefright_soft_mp3dec.so
+libtinyalsa.so
+libwebrtc_audio_preprocessing.so
+--- /system/etc audio configs ---
+-rwxrwxrwx root     root         4305 2022-04-13 16:35 audio_effects.conf
+-rwxrwxr-x root     root         1821 2022-04-14 11:40 audio_policy.conf
+-rwxrwxr-x root     root         2000 2022-04-13 16:35 mixer_paths.xml
+--- dumpsys audio ---
+/system/bin/sh: head: not found
+--- dumpsys media.audio_flinger ---
+/system/bin/sh: head: not found
+su: exec failed for echo --- root ls /vendor ---; ls -la /vendor 2>/dev/null; echo --- root ls /dsp ---; ls -la /dsp 2>/dev/null; echo --- root find dsp ---; find / -iname "*dsp*" 2>/dev/null | head -40 Error:No such file or directory
+
+===== FILE: /system/etc/audio_policy.conf =====
+#
+# Audio policy configuration for generic device builds (goldfish audio HAL - emulator)
+#
+
+# Global configuration section: lists input and output devices always present on the device
+# as well as the output device selected by default.
+# Devices are designated by a string that corresponds to the enum in audio.h
+
+global_configuration {
+  attached_output_devices AUDIO_DEVICE_OUT_SPEAKER
+  default_output_device AUDIO_DEVICE_OUT_SPEAKER
+  attached_input_devices AUDIO_DEVICE_IN_BUILTIN_MIC
+}
+
+# audio hardware module section: contains descriptors for all audio hw modules present on the
+# device. Each hw module node is named after the corresponding hw module library base name.
+# For instance, "primary" corresponds to audio.primary.<device>.so.
+# The "primary" module is mandatory and must include at least one output with
+# AUDIO_OUTPUT_FLAG_PRIMARY flag.
+# Each module descriptor contains one or more output profile descriptors and zero or more
+# input profile descriptors. Each profile lists all the parameters supported by a given output
+# or input stream category.
+# The "channel_masks", "formats", "devices" and "flags" are specified using strings corresponding
+# to enums in audio.h and audio_policy.h. They are concatenated by use of "|" without space or "\n".
+
+audio_hw_modules {
+  primary {
+    outputs {
+      primary {
+        sampling_rates 44100
+        channel_masks AUDIO_CHANNEL_OUT_STEREO
+        formats AUDIO_FORMAT_PCM_16_BIT
+        devices AUDIO_DEVICE_OUT_SPEAKER
+        flags AUDIO_OUTPUT_FLAG_PRIMARY
+      }
+    }
+    inputs {
+      primary {
+        sampling_rates 8000|11025|12000|16000|22050|24000|32000|44100|48000
+        channel_masks AUDIO_CHANNEL_IN_MONO|AUDIO_CHANNEL_IN_STEREO
+        formats AUDIO_FORMAT_PCM_16_BIT
+        devices AUDIO_DEVICE_IN_BUILTIN_MIC
+      }
+    }
+  }
+}
+
+===== FILE: /system/etc/audio_effects.conf =====
+# List of effect libraries to load. Each library element must contain a "path" element
+# giving the full path of the library .so file.
+#    libraries {
+#        <lib name> {
+#          path <lib path>
+#        }
+#    }
+libraries {
+  bundle {
+    path /system/lib/soundfx/libbundlewrapper.so
+  }
+  reverb {
+    path /system/lib/soundfx/libreverbwrapper.so
+  }
+  visualizer {
+    path /system/lib/soundfx/libvisualizer.so
+  }
+  downmix {
+    path /system/lib/soundfx/libdownmix.so
+  }
+}
+
+# Default pre-processing library. Add to audio_effect.conf "libraries" section if
+# audio HAL implements support for default software audio pre-processing effects
+#
+#  pre_processing {
+#    path /system/lib/soundfx/libaudiopreprocessing.so
+#  }
+
+# list of effects to load. Each effect element must contain a "library" and a "uuid" element.
+# The value of the "library" element must correspond to the name of one library element in the
+# "libraries" element.
+# The name of the effect element is indicative, only the value of the "uuid" element
+# designates the effect.
+# The uuid is the implementation specific UUID as specified by the effect vendor. This is not the
+# generic effect type UUID.
+#    effects {
+#        <fx name> {
+#            library <lib name>
+#            uuid <effect uuid>
+#        }
+#        ...
+#    }
+
+effects {
+  bassboost {
+    library bundle
+    uuid 8631f300-72e2-11df-b57e-0002a5d5c51b
+  }
+  virtualizer {
+    library bundle
+    uuid 1d4033c0-8557-11df-9f2d-0002a5d5c51b
+  }
+  equalizer {
+    library bundle
+    uuid ce772f20-847d-11df-bb17-0002a5d5c51b
+  }
+  volume {
+    library bundle
+    uuid 119341a0-8469-11df-81f9-0002a5d5c51b
+  }
+  reverb_env_aux {
+    library reverb
+    uuid 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+  }
+  reverb_env_ins {
+    library reverb
+    uuid c7a511a0-a3bb-11df-860e-0002a5d5c51b
+  }
+  reverb_pre_aux {
+    library reverb
+    uuid f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+  }
+  reverb_pre_ins {
+    library reverb
+    uuid 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+  }
+  visualizer {
+    library visualizer
+    uuid d069d9e0-8329-11df-9168-0002a5d5c51b
+  }
+  downmix {
+    library downmix
+    uuid 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+  }
+}
+
+# Default pre-processing effects. Add to audio_effect.conf "effects" section if
+# audio HAL implements support for them.
+#
+#  agc {
+#    library pre_processing
+#    uuid aa8130e0-66fc-11e0-bad0-0002a5d5c51b
+#  }
+#  aec {
+#    library pre_processing
+#    uuid bb392ec0-8d4d-11e0-a896-0002a5d5c51b
+#  }
+#  ns {
+#    library pre_processing
+#    uuid c06c8400-8e06-11e0-9cb6-0002a5d5c51b
+#  }
+
+# Audio preprocessor configurations.
+# The pre processor configuration consists in a list of elements each describing
+# pre processor settings for a given input source. Valid input source names are:
+# "mic", "camcorder", "voice_recognition", "voice_communication"
+# Each input source element contains a list of effects elements. The name of the effect
+# element must be the name of one of the effects in the "effects" list of the file.
+# Each effect element may optionally contain a list of parameters and their
+# default value to apply when the pre processor effect is created.
+# A parameter is defined by a "param" element and a "value" element. Each of these elements
+# consists in one or more elements specifying a type followed by a value.
+# The types defined are: "int", "short", "float", "bool" and "string"
+# When both "param" and "value" are a single int, a simple form is allowed where just
+# the param and value pair is present in the parameter description
+#    pre_processing {
+#        <input source name> {
+#            <fx name> {
+#                <param 1 name> {
+#                    param {
+#                        int|short|float|bool|string <value>
+#                        [ int|short|float|bool|string <value> ]
+#                        ...
+#                    }
+#                    value {
+#                        int|short|float|bool|string <value>
+#                        [ int|short|float|bool|string <value> ]
+#                        ...
+#                    }
+#                }
+#                <param 2 name > {<param> <value>}
+#                ...
+#            }
+#            ...
+#        }
+#        ...
+#    }
+
+#
+# TODO: add default audio pre processor configurations after debug and tuning phase
+#
+
+===== FILE: /system/etc/mixer_paths.xml =====
+<mixer>
+  <!-- These are the initial mixer settings -->
+  <ctl name="Speaker Playback Switch" value="0" />
+  <ctl name="Int Spk Switch" value="0" />
+  <ctl name="HP Playback Switch" value="0" />
+  <ctl name="Headphone Jack Switch" value="0" />
+  <ctl name="AUX Switch" value="0" />
+  <ctl name="OUT Playback Switch" value="0" />
+  <ctl name="OUT Channel Switch" value="0" />
+
+  <!-- This is the dock volume -->
+  <ctl name="OUT Playback Volume" value="32" />
+
+  <!-- This is the dock (line out) source -->
+  <ctl name="LOUT MIX DAC L1 Switch" value="0" />
+  <ctl name="LOUT MIX DAC R1 Switch" value="0" />
+  <ctl name="LOUT MIX OUTVOL L Switch" value="1" />
+  <ctl name="LOUT MIX OUTVOL R Switch" value="1" />
+
+  <ctl name="Int Mic Switch" value="0" />
+  <ctl name="Mic Jack Switch" value="0" />
+  <ctl name="DMIC Switch" value="Disable" />
+  <ctl name="ADC Capture Volume" value="119" />
+
+  <path name="speaker">
+    <ctl name="Speaker Playback Switch" value="1" />
+    <ctl name="Int Spk Switch" value="1" />
+    <ctl name="DAC IF1 SWITCH" value="swap" />
+  </path>
+
+  <path name="headphone">
+    <ctl name="HP Playback Switch" value="1" />
+    <ctl name="Headphone Jack Switch" value="1" />
+    <!-- Even though the default is "Normal", this is used
+         to override the speaker setting -->
+    <ctl name="DAC IF1 SWITCH" value="Normal" />
+  </path>
+
+  <path name="dock">
+    <ctl name="AUX Switch" value="1" />
+    <ctl name="OUT Playback Switch" value="1" />
+    <ctl name="OUT Channel Switch" value="1" />
+  </path>
+
+  <path name="main-mic-top">
+    <ctl name="Int Mic Switch" value="1" />
+    <ctl name="DMIC Switch" value="DMIC1" />
+    <ctl name="ADC IF1 SWITCH" value="right copy to left" />
+  </path>
+
+  <path name="main-mic-left">
+    <ctl name="Int Mic Switch" value="1" />
+    <ctl name="DMIC Switch" value="DMIC1" />
+    <ctl name="ADC IF1 SWITCH" value="left copy to right" />
+  </path>
+
+  <path name="headset-mic">
+    <ctl name="Mic Jack Switch" value="1" />
+  </path>
+</mixer>
+
+===== DUMPSYS AUDIO =====
+
+Audio Focus stack entries:
+  source:android.os.BinderProxy@2cdcb770 -- pack: com.android.music -- client: android.media.AudioManager@2c78ea58com.android.music.MusicPlayService$14@2c751858 -- duration: 1 -- uid: 1000 -- stream: 3
+
+Remote Control stack entries:
+  pi: PendingIntent{2cbe00d0: PendingIntentRecord{2d0047d8 com.harmandrive broadcastIntent}} -- pack: null  -- ercvr: ComponentInfo{com.harmandrive/com.harmandrive.player.MediaButtonReceiver}  -- client: null  -- uid: 1000  -- type: 0  state: 1
+  pi: PendingIntent{2c852578: PendingIntentRecord{2cdfad40 org.videolan.vlc broadcastIntent}} -- pack: null  -- ercvr: ComponentInfo{org.videolan.vlc/androidx.media.session.MediaButtonReceiver}  -- client: null  -- uid: -1  -- type: 0  state: 1
+  pi: PendingIntent{2d2cded0: PendingIntentRecord{2ce92210 com.harman.caraudio broadcastIntent}} -- pack: null  -- ercvr: ComponentInfo{com.harman.caraudio/com.harman.caraudio.player.MediaButtonReceiver}  -- client: null  -- uid: 1000  -- type: 0  state: 1
+  pi: PendingIntent{2d30df90: PendingIntentRecord{2cdf3ca0 com.cardsp.player broadcastIntent}} -- pack: null  -- ercvr: ComponentInfo{com.cardsp.player/com.cardsp.player.MediaButtonReceiver}  -- client: null  -- uid: -1  -- type: 0  state: 1
+
+Remote Control Client stack entries:
+  uid: 1000  -- id: 3  -- type: 0  -- state: 1  -- vol handling: 1  -- vol: 15  -- volMax: 15  -- volObs: null
+  uid: -1  -- id: 5  -- type: 0  -- state: 1  -- vol handling: 1  -- vol: 15  -- volMax: 15  -- volObs: null
+  uid: 1000  -- id: 6  -- type: 0  -- state: 1  -- vol handling: 1  -- vol: 15  -- volMax: 15  -- volObs: null
+  uid: -1  -- id: 7  -- type: 0  -- state: 1  -- vol handling: 1  -- vol: 15  -- volMax: 15  -- volObs: null
+
+Remote Volume State:
+  has remote: false
+  is remote active: false
+  rccId: -1
+  volume handling: PLAYBACK_VOLUME_VARIABLE(1)
+  volume: 40
+  volume steps: 40
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_SYSTEM:
+   Mute count: 0
+   Current: 2: 5, 40000000: 3, 
+   Last audible: 2: 5, 40000000: 3, 
+- STREAM_RING:
+   Mute count: 0
+   Current: 2: 2, 40000000: 1, 
+   Last audible: 2: 2, 40000000: 1, 
+- STREAM_MUSIC:
+   Mute count: 0
+   Current: 2000: 40, 400: 40, 1000: 40, 800: 40, 8: 10, 4000: 40, 2: 26, 40000000: 40, 4: 10, 
+   Last audible: 2000: 40, 400: 40, 1000: 40, 800: 40, 8: 10, 4000: 40, 2: 26, 40000000: 40, 4: 10, 
+- STREAM_ALARM:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_NOTIFICATION:
+   Mute count: 0
+   Current: 2: 5, 40000000: 3, 
+   Last audible: 2: 5, 40000000: 3, 
+- STREAM_BLUETOOTH_SCO:
+   Mute count: 0
+   Current: 2: 10, 40000000: 8, 
+   Last audible: 2: 10, 40000000: 8, 
+- STREAM_SYSTEM_ENFORCED:
+   Mute count: 0
+   Current: 2: 5, 40000000: 3, 
+   Last audible: 2: 5, 40000000: 3, 
+- STREAM_DTMF:
+   Mute count: 0
+   Current: 2: 5, 40000000: 3, 
+   Last audible: 2: 5, 40000000: 3, 
+- STREAM_TTS:
+   Mute count: 0
+   Current: 2000: 40, 400: 40, 1000: 40, 800: 40, 8: 10, 4000: 40, 2: 26, 40000000: 40, 4: 10, 
+   Last audible: 2000: 40, 400: 40, 1000: 40, 800: 40, 8: 10, 4000: 40, 2: 26, 40000000: 40, 4: 10, 
+- STREAM_GIS:
+   Mute count: 0
+   Current: 2: 40, 40000000: 30, 
+   Last audible: 2: 40, 40000000: 30, 
+- STREAM_IPOD:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_BACKCAR:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_RDS:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_CT:
+   Mute count: 0
+   Current: 2: 40, 40000000: 40, 
+   Last audible: 2: 40, 40000000: 40, 
+- STREAM_CARLIFE:
+   Mute count: 0
+   Current: 2: 11, 40000000: 11, 
+   Last audible: 2: 11, 40000000: 11, 
+
+- mute affected streams = 0x2e
+
+Ringer mode: 
+- mode: NORMAL
+- ringer mode affected streams = 0xa6
+- ringer mode muted streams = 0x0
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+===== DUMPSYS MEDIA.AUDIO_FLINGER =====
+Clients:
+  pid: 376
+  pid: 905
+  pid: 1094
+Global session refs:
+ session pid count
+       3 905   1
+     174 376   1
+     240 376   1
+     241 1094   1
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0x2b9cfb88 internals
+last write occurred (msecs): 612688
+total writes: 26651
+delayed writes: 0
+blocked in write: 0
+suspend count: 0
+mix buffer : 0x2b9d7e50
+Fast track availMask=0xfe
+io handle: 2
+TID: 339
+standby: 1
+Sample rate: 44100
+HAL frame count: 2048
+Normal frame count: 2048
+Channel Count: 2
+Channel Mask: 0x00000003
+Format: 1
+Frame size: 4
+
+Pending setParameters commands: 
+ Index Command
+
+Pending config events: 
+
+AudioMixer tracks: 0000001b
+FastMixer not initialized
+State queue observer: stateChanges=0
+State queue mutator: pushDirty=0 pushAck=0 blockedSequence=0
+Output thread 0x2b9cfb88 stream volumes in dB:
+    0:-3.6, 1:-24, 2:-29, 3:-27, 4:-13, 5:-31, 6:-3.2, 7:-25, 8:-25, 9:-27, 10:-17, 11:-17, 12:-17, 13:-17, 14:-36, 15:-56
+Output thread 0x2b9cfb88 tracks
+   Name Client Type Fmt Chn mask   Session mFrCnt fCount S M F SRate  L dB  R dB    Server      User     Main buf    Aux Buf  Flags Underruns
+      1   1094    6   1 0x00000001     241      0   4096 I 0 0 44100     0     0  0x00000000 0x00000000 0x2b9d7e50 0x00000000   0x3         0 
+      3    376    1   1 0x00000003     174   2048   8192 S 0 1 44100  -Inf  -Inf  0x00000000 0x00000000 0x2b9d7e50 0x00000000   0x3         0 
+      4    376    1   1 0x00000003     240   2048   8192 S 0 1 44100  -Inf  -Inf  0x00000000 0x00000000 0x2b9d7e50 0x00000000   0x3         0 
+      0    905    0   1 0x00000001       3   2048   4096 S 0 1 44100   -10   -10  0x00000000 0x00000000 0x2b9d7e50 0x00000000   0x3         2 
+Output thread 0x2b9cfb88 active tracks
+   Name Client Type Fmt Chn mask   Session mFrCnt fCount S M F SRate  L dB  R dB    Server      User     Main buf    Aux Buf  Flags Underruns
+Normal mixer raw underrun counters: partial=0 empty=0
+
+- 0 Effect Chains:
+
+**********print stream volume start**********
+mStreamTypes[0]=0.661040
+mStreamTypes[1]=0.062368
+mStreamTypes[2]=0.036840
+mStreamTypes[3]=0.046716
+mStreamTypes[4]=0.236479
+mStreamTypes[5]=0.029339
+mStreamTypes[6]=0.691919
+mStreamTypes[7]=0.055394
+mStreamTypes[8]=0.055394
+mStreamTypes[9]=0.046716
+mStreamTypes[10]=0.133658
+mStreamTypes[11]=0.133658
+mStreamTypes[12]=0.133658
+mStreamTypes[13]=0.133658
+mStreamTypes[14]=0.015731
+mStreamTypes[15]=0.001546
+**********print stream volume end**********
+
+===== /vendor =====
+su: exec failed for ls -la /vendor Error:No such file or directory
+
+===== /dsp =====
+su: exec failed for ls -la /dsp Error:No such file or directory
+
+===== find dsp =====
+su: exec failed for find / -iname "*dsp*" 2>/dev/null Error:No such file or directory
+
+===== /system/lib/hw =====
+-rwxrwxr-x root     root        17872 2022-04-14 11:46 audio.primary.ac8317.so
+-rwxrwxr-x root     root         5436 2022-04-14 11:46 audio.primary.default.so
+-rwxrwxr-x root     root        25836 2022-04-14 11:46 audio.primary.goldfish.so
+-rwxrwxr-x root     root        91692 2022-04-14 11:57 audio_policy.ac8317.so
+-rwxrwxr-x root     root        79404 2022-04-14 11:57 audio_policy.default.so
+-rwxrwxr-x root     root       169432 2022-04-14 12:03 camera.ac8317.so
+-rwxrwxr-x root     root       132896 2022-04-14 11:47 camera.goldfish.so
+-rwxrwxr-x root     root        26008 2022-04-14 11:46 gps.default.so
+-rwxrwxr-x root     root         9564 2022-04-14 11:46 gps.goldfish.so
+-rwxrwxr-x root     root        30052 2022-04-14 11:47 gps_6630.default.so
+-rwxrwxr-x root     root        17644 2022-04-14 11:46 gralloc.default.so
+-rwxrwxr-x root     root        13616 2022-04-13 16:36 hwcomposer.ac8317.so
+-rwxrwxr-x root     root         5372 2022-04-14 11:46 hwcomposer.default.so
+-rwxrwxr-x root     root        17604 2022-04-13 16:36 ipod.ac8317.so
+-rwxrwxr-x root     root         9484 2022-04-14 11:46 keystore.default.so
+-rwxrwxr-x root     root         9572 2022-04-14 11:56 lights.ac8317.so
+-rwxrwxr-x root     root         5368 2022-04-14 11:46 lights.goldfish.so
+-rwxrwxr-x root     root         5372 2022-04-14 11:46 local_time.default.so
+-rwxrwxr-x root     root         5372 2022-04-14 11:46 power.default.so
+-rwxrwxr-x root     root         5424 2022-04-14 11:46 power.goldfish.so
+-rwxrwxr-x root     root       239940 2022-04-14 11:57 roadroveri30.default.so
+-rwxrwxr-x root     root         9524 2022-04-14 11:46 sensors.goldfish.so
+
+===== partitions =====
+su: exec failed for cat /proc/partitions Error:No such file or directory
+su: exec failed for ls -la /dev/block/ Error:No such file or directory
+
+
+===== ADDITIONAL DUMP (telnet root) =====
+echo '===== PROC VERSION ====='
+===== PROC VERSION =====
+root@android:/ # cat /proc/version
+Linux version 3.4.35 (hudan@it-0C) (gcc version 4.5.1 (GCC) ) #187 SMP PREEMPT Thu Apr 14 15:04:35 CST 2022
+root@android:/ # echo '===== CMDLINE ====='
+===== CMDLINE =====
+root@android:/ # cat /proc/cmdline
+root=/dev/ram0 rw initrd=0x07000000,0x400000 init=/init console=ttyMT0 nohlt loglevel=8 user_debug=31 no_console_suspend vmalloc=400M parts=64K@0x0(preloader)0,4K@0x10000(datazone)0,3M@0x11000(uboot)0,2M@0x400000(env)0,2M@0x600000(arm2)0,4M@0x800000(logo)0,10M@0xc00000(kernel)0,2M@0x1600000(dtb)0,2M@0x1800000(rootfs)0,800M@0x1a00000(system)1,2000M@0x33a00000(data)1,100M@0xb0a00000(cache)1,4M@0xb6e00000(recovery)0,2M@0xb7200000(misc)0,70M@0xb7400000(backup)1,4M@0xbba00000(metazone)0,4M@0xbbe00000(dvp)0,2000M@0xbc200000(data4write)1,-(usrdata)1 androidboot.serialno=abdf911ba819f1e
+root@android:/ # echo '===== SYSTEM VENDOR ====='
+===== SYSTEM VENDOR =====
+root@android:/ # ls -la /system/vendor/
+/system/vendor/: No such file or directory
+1|root@android:/ # echo '===== VENDOR LIB ====='
+===== VENDOR LIB =====
+root@android:/ # ls /system/vendor/lib/ 2>/dev/null
+1|root@android:/ # echo '===== VENDOR ETC ====='
+===== VENDOR ETC =====
+root@android:/ # ls /system/vendor/etc/ 2>/dev/null
+1|root@android:/ # echo '===== SYSTEM LIB (audio/dsp) ====='
+===== SYSTEM LIB (audio/dsp) =====
+root@android:/ # ls /system/lib/ | grep -iE 'audio|dsp|asound|alsa|tiny'
+libSR_AudioIn.so
+libaudioeffect_jni.so
+libaudioflinger.so
+libaudioutils.so
+libipodaudio.so
+libtinyalsa.so
+libtinyxml.so
+libwebrtc_audio_preprocessing.so
+root@android:/ # echo '===== KERNEL MODULES ====='
+===== KERNEL MODULES =====
+root@android:/ # ls /system/lib/modules/ 2>/dev/null
+1|root@android:/ # echo '===== AUDIO POLICY CONF ====='
+===== AUDIO POLICY CONF =====
+root@android:/ # cat /system/etc/audio_policy.conf
+#
+# Audio policy configuration for generic device builds (goldfish audio HAL - emulator)
+#
+
+# Global configuration section: lists input and output devices always present on the device
+# as well as the output device selected by default.
+# Devices are designated by a string that corresponds to the enum in audio.h
+
+global_configuration {
+  attached_output_devices AUDIO_DEVICE_OUT_SPEAKER
+  default_output_device AUDIO_DEVICE_OUT_SPEAKER
+  attached_input_devices AUDIO_DEVICE_IN_BUILTIN_MIC
+}
+
+# audio hardware module section: contains descriptors for all audio hw modules present on the
+# device. Each hw module node is named after the corresponding hw module library base name.
+# For instance, "primary" corresponds to audio.primary.<device>.so.
+# The "primary" module is mandatory and must include at least one output with
+# AUDIO_OUTPUT_FLAG_PRIMARY flag.
+# Each module descriptor contains one or more output profile descriptors and zero or more
+# input profile descriptors. Each profile lists all the parameters supported by a given output
+# or input stream category.
+# The "channel_masks", "formats", "devices" and "flags" are specified using strings corresponding
+# to enums in audio.h and audio_policy.h. They are concatenated by use of "|" without space or "\n".
+
+audio_hw_modules {
+  primary {
+    outputs {
+      primary {
+        sampling_rates 44100
+        channel_masks AUDIO_CHANNEL_OUT_STEREO
+        formats AUDIO_FORMAT_PCM_16_BIT
+        devices AUDIO_DEVICE_OUT_SPEAKER
+        flags AUDIO_OUTPUT_FLAG_PRIMARY
+      }
+    }
+    inputs {
+      primary {
+        sampling_rates 8000|11025|12000|16000|22050|24000|32000|44100|48000
+        channel_masks AUDIO_CHANNEL_IN_MONO|AUDIO_CHANNEL_IN_STEREO
+        formats AUDIO_FORMAT_PCM_16_BIT
+        devices AUDIO_DEVICE_IN_BUILTIN_MIC
+      }
+    }
+  }
+}
+root@android:/ # 
+
+===== ADDITIONAL DUMP 2 =====
+echo '===== MIXER PATHS ====='
+===== MIXER PATHS =====
+root@android:/ # cat /system/etc/mixer_paths.xml
+<mixer>
+  <!-- These are the initial mixer settings -->
+  <ctl name="Speaker Playback Switch" value="0" />
+  <ctl name="Int Spk Switch" value="0" />
+  <ctl name="HP Playback Switch" value="0" />
+  <ctl name="Headphone Jack Switch" value="0" />
+  <ctl name="AUX Switch" value="0" />
+  <ctl name="OUT Playback Switch" value="0" />
+  <ctl name="OUT Channel Switch" value="0" />
+
+  <!-- This is the dock volume -->
+  <ctl name="OUT Playback Volume" value="32" />
+
+  <!-- This is the dock (line out) source -->
+  <ctl name="LOUT MIX DAC L1 Switch" value="0" />
+  <ctl name="LOUT MIX DAC R1 Switch" value="0" />
+  <ctl name="LOUT MIX OUTVOL L Switch" value="1" />
+  <ctl name="LOUT MIX OUTVOL R Switch" value="1" />
+
+  <ctl name="Int Mic Switch" value="0" />
+  <ctl name="Mic Jack Switch" value="0" />
+  <ctl name="DMIC Switch" value="Disable" />
+  <ctl name="ADC Capture Volume" value="119" />
+
+  <path name="speaker">
+    <ctl name="Speaker Playback Switch" value="1" />
+    <ctl name="Int Spk Switch" value="1" />
+    <ctl name="DAC IF1 SWITCH" value="swap" />
+  </path>
+
+  <path name="headphone">
+    <ctl name="HP Playback Switch" value="1" />
+    <ctl name="Headphone Jack Switch" value="1" />
+    <!-- Even though the default is "Normal", this is used
+         to override the speaker setting -->
+    <ctl name="DAC IF1 SWITCH" value="Normal" />
+  </path>
+
+  <path name="dock">
+    <ctl name="AUX Switch" value="1" />
+    <ctl name="OUT Playback Switch" value="1" />
+    <ctl name="OUT Channel Switch" value="1" />
+  </path>
+
+  <path name="main-mic-top">
+    <ctl name="Int Mic Switch" value="1" />
+    <ctl name="DMIC Switch" value="DMIC1" />
+    <ctl name="ADC IF1 SWITCH" value="right copy to left" />
+  </path>
+
+  <path name="main-mic-left">
+    <ctl name="Int Mic Switch" value="1" />
+    <ctl name="DMIC Switch" value="DMIC1" />
+    <ctl name="ADC IF1 SWITCH" value="left copy to right" />
+  </path>
+
+  <path name="headset-mic">
+    <ctl name="Mic Jack Switch" value="1" />
+  </path>
+</mixer>
+root@android:/ # echo '===== AUDIO EFFECTS ====='
+===== AUDIO EFFECTS =====
+root@android:/ # cat /system/etc/audio_effects.conf
+# List of effect libraries to load. Each library element must contain a "path" element
+# giving the full path of the library .so file.
+#    libraries {
+#        <lib name> {
+#          path <lib path>
+#        }
+#    }
+libraries {
+  bundle {
+    path /system/lib/soundfx/libbundlewrapper.so
+  }
+  reverb {
+    path /system/lib/soundfx/libreverbwrapper.so
+  }
+  visualizer {
+    path /system/lib/soundfx/libvisualizer.so
+  }
+  downmix {
+    path /system/lib/soundfx/libdownmix.so
+  }
+}
+
+# Default pre-processing library. Add to audio_effect.conf "libraries" section if
+# audio HAL implements support for default software audio pre-processing effects
+#
+#  pre_processing {
+#    path /system/lib/soundfx/libaudiopreprocessing.so
+#  }
+
+# list of effects to load. Each effect element must contain a "library" and a "uuid" element.
+# The value of the "library" element must correspond to the name of one library element in the
+# "libraries" element.
+# The name of the effect element is indicative, only the value of the "uuid" element
+# designates the effect.
+# The uuid is the implementation specific UUID as specified by the effect vendor. This is not the
+# generic effect type UUID.
+#    effects {
+#        <fx name> {
+#            library <lib name>
+#            uuid <effect uuid>
+#        }
+#        ...
+#    }
+
+effects {
+  bassboost {
+    library bundle
+    uuid 8631f300-72e2-11df-b57e-0002a5d5c51b
+  }
+  virtualizer {
+    library bundle
+    uuid 1d4033c0-8557-11df-9f2d-0002a5d5c51b
+  }
+  equalizer {
+    library bundle
+    uuid ce772f20-847d-11df-bb17-0002a5d5c51b
+  }
+  volume {
+    library bundle
+    uuid 119341a0-8469-11df-81f9-0002a5d5c51b
+  }
+  reverb_env_aux {
+    library reverb
+    uuid 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+  }
+  reverb_env_ins {
+    library reverb
+    uuid c7a511a0-a3bb-11df-860e-0002a5d5c51b
+  }
+  reverb_pre_aux {
+    library reverb
+    uuid f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+  }
+  reverb_pre_ins {
+    library reverb
+    uuid 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+  }
+  visualizer {
+    library visualizer
+    uuid d069d9e0-8329-11df-9168-0002a5d5c51b
+  }
+  downmix {
+    library downmix
+    uuid 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+  }
+}
+
+# Default pre-processing effects. Add to audio_effect.conf "effects" section if
+# audio HAL implements support for them.
+#
+#  agc {
+#    library pre_processing
+#    uuid aa8130e0-66fc-11e0-bad0-0002a5d5c51b
+#  }
+#  aec {
+#    library pre_processing
+#    uuid bb392ec0-8d4d-11e0-a896-0002a5d5c51b
+#  }
+#  ns {
+#    library pre_processing
+#    uuid c06c8400-8e06-11e0-9cb6-0002a5d5c51b
+#  }
+
+# Audio preprocessor configurations.
+# The pre processor configuration consists in a list of elements each describing
+# pre processor settings for a given input source. Valid input source names are:
+# "mic", "camcorder", "voice_recognition", "voice_communication"
+# Each input source element contains a list of effects elements. The name of the effect
+# element must be the name of one of the effects in the "effects" list of the file.
+# Each effect element may optionally contain a list of parameters and their
+# default value to apply when the pre processor effect is created.
+# A parameter is defined by a "param" element and a "value" element. Each of these elements
+# consists in one or more elements specifying a type followed by a value.
+# The types defined are: "int", "short", "float", "bool" and "string"
+# When both "param" and "value" are a single int, a simple form is allowed where just
+# the param and value pair is present in the parameter description
+#    pre_processing {
+#        <input source name> {
+#            <fx name> {
+#                <param 1 name> {
+#                    param {
+#                        int|short|float|bool|string <value>
+#                        [ int|short|float|bool|string <value> ]
+#                        ...
+#                    }
+#                    value {
+#                        int|short|float|bool|string <value>
+#                        [ int|short|float|bool|string <value> ]
+#                        ...
+#                    }
+#                }
+#                <param 2 name > {<param> <value>}
+#                ...
+#            }
+#            ...
+#        }
+#        ...
+#    }
+
+#
+# TODO: add default audio pre processor configurations after debug and tuning phase
+#
+root@android:/ # echo '===== BUILD INFO EXTRA ====='
+===== BUILD INFO EXTRA =====
+root@android:/ # cat /system/build.prop | grep -iE 'audio|dsp|codec|ac83|ro.priE 'audio|dsp|codec|ac83|ro.pr                                                <oduct|ro.hardware|ro.board'
+ro.product.model=Generic Android on ac8317
+ro.product.brand=Android
+ro.product.name=generic_ac8317
+ro.product.device=ac8317
+ro.product.board=
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=ATC
+ro.product.locale.language=EN
+ro.product.locale.region=us
+ro.board.platform=ac8317
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=ac8317
+ro.build.fingerprint=Android/generic_ac8317/ac8317:4.2.2/JDQ39E/eng.hudan.20220414.143414:eng/test-keys
+root@android:/ # 
+
+===== ADDITIONAL DUMP 3 =====
+echo '===== SOUND CLASS ====='
+===== SOUND CLASS =====
+root@android:/ # ls -la /sys/class/sound/ 2>/dev/null
+lrwxrwxrwx root     root              2026-10-25 20:55 audio -> ../../devices/virtual/sound/card0/audio
+lrwxrwxrwx root     root              2026-10-25 20:55 card0 -> ../../devices/virtual/sound/card0
+lrwxrwxrwx root     root              2026-10-25 20:55 controlC0 -> ../../devices/virtual/sound/card0/controlC0
+lrwxrwxrwx root     root              2026-10-25 20:55 dsp -> ../../devices/virtual/sound/card0/dsp
+lrwxrwxrwx root     root              2026-10-25 20:55 mixer -> ../../devices/virtual/sound/card0/mixer
+lrwxrwxrwx root     root              2026-10-25 20:55 pcmC0D0c -> ../../devices/virtual/sound/card0/pcmC0D0c
+lrwxrwxrwx root     root              2026-10-25 20:55 pcmC0D0p -> ../../devices/virtual/sound/card0/pcmC0D0p
+lrwxrwxrwx root     root              2026-10-25 20:55 timer -> ../../devices/virtual/sound/timer
+root@android:/ # echo '===== DEVICES ====='
+===== DEVICES =====
+root@android:/ # cat /proc/devices
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 14 sound
+ 21 sg
+ 29 fb
+ 81 video4linux
+ 89 i2c
+ 90 mtd
+108 ppp
+116 alsa
+128 ptm
+136 pts
+153 spi
+166 ttyACM
+180 usb
+188 ttyUSB
+189 usb_device
+202 ModGPIO
+204 ttyMT
+226 ampc0
+247 EXTTV
+248 ModRadioPwm
+249 ModCCDPower
+250 btdrv
+251 mt3332-gps
+252 ump
+253 bsg
+254 rtc
+
+Block devices:
+  1 ramdisk
+259 blkext
+  7 loop
+  8 sd
+ 11 sr
+ 31 mtdblock
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+179 mmc
+253 zram
+254 device-mapper
+root@android:/ # echo '===== AUDIO PACKAGES ====='
+===== AUDIO PACKAGES =====
+root@android:/ # pm list packages | grep -iE 'audio|music|player|dsp|media'
+package:com.android.music
+package:com.android.musicfx
+package:com.android.musicvis
+package:com.android.providers.media
+package:com.autochips.videoplayer2
+package:com.autophonic.player
+package:com.cardsp.player
+package:com.demo.media
+package:com.harman.caraudio
+package:com.openroad.player
+package:com.roadrover.audiosetting
+package:com.roadrover.ipodplayer
+package:in.krosbits.musicolet
+package:tunein.player
+root@android:/ # echo '===== TINYALSA TOOLS ====='
+===== TINYALSA TOOLS =====
+root@android:/ # ls /system/bin/ | grep -iE 'tiny|alsa|amix|aplay|arecord'
+tinyplay
+root@android:/ # 
